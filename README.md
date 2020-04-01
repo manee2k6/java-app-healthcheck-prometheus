@@ -14,7 +14,7 @@
 
 # Project dependencies
 
-pom.xml
+- pom.xml
 
 # Attempted Application architecture design:
 
