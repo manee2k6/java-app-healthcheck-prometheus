@@ -1,0 +1,30 @@
+- records_more_than_5_days:
+    driver: mysql
+    connection:
+        host: localhost
+        port: 3306
+        user: root
+        password: "db@123"
+        database: billie_db
+
+    sql: >
+
+        SELECT DATEDIFF(NOW(), created_at) as days FROM invoice_data ORDER BY id DESC LIMIT 1;
+        
+    params:
+        created_at: 5
+    interval: 1h
+
+# - no_corresponding_invoice_records_at_invoice_data:
+#     driver: mysql
+
+#     connection:
+#         host: localhost
+#         port: 3306
+#         user: root
+#         password: "db@123"
+#         database: billie_db
+
+#     sql: >
+        
+#     interval: 1h

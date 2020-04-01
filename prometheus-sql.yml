@@ -1,0 +1,16 @@
+defaults:
+  data-source: billie-ds
+  query-interval: 10s
+  query-timeout: 5s
+  query-value-on-error: -1
+  
+  
+data-sources:
+  billie-ds:
+    driver: mysql
+    properties:
+      host: localhost
+      port: 3306
+      user: root
+      password: db@123
+      database: billie_db

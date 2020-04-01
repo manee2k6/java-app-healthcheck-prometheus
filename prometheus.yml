@@ -1,0 +1,19 @@
+global:
+  scrape_interval:     15s
+  evaluation_interval: 15s
+
+# rule_files:
+# - "rules/simple.rules"
+
+scrape_configs:
+- job_name: prometheus
+  static_configs:
+  - targets: ['localhost:9090']
+
+- job_name: app
+  static_configs:
+  - targets: ['app:8080']
+
+- job_name: prometheus-sql
+  static_configs:
+  - targets: ['prometheus-sql:8090']
