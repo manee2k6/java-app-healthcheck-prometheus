@@ -1,7 +1,5 @@
 # java-app-healthcheck-prometheus
 
-##java-app-healthcheck-prometheus
-
 # Stack
 
 - Java
