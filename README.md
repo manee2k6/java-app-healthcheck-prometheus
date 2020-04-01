@@ -20,6 +20,9 @@
 
 ![](images/Architecture.png)
 
+# Other approach using MYSQL exporter
+- Ref link: https://hub.docker.com/r/prom/mysqld-exporter/
+
 # Application URL's 
    ( after running docker-compose up )
    
