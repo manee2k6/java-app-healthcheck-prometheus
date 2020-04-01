@@ -19,5 +19,5 @@ pom.xml
 
 # Attempted Application architecture design:
 
-![](images/project-structure.png)
+![](images/Architecture.png)
 
