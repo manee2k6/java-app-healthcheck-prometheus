@@ -1,13 +1,14 @@
 # java-app-healthcheck-prometheus
-java-app-healthcheck-prometheus
+
+##java-app-healthcheck-prometheus
 
 # Stack
 
-Java
-Prometheus
-Grafana
-MySQL
-Docker Compose
+- Java
+- Prometheus
+- Grafana
+- MySQL
+- Docker Compose
 
 # Project structure
 
