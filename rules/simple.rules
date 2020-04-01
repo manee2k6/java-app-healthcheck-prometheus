@@ -1,0 +1,10 @@
+ALERT Records_More_Than_5_Days
+  IF query_result_records_more_than_5_days > 5
+  FOR 1h
+  LABELS {
+    severity = "warning"
+  }
+  ANNOTATIONS {
+    summary = "records in invoice with new state is more than 5 days, need to be processes",
+    description = "records to be processed less than 5 days",
+  }
