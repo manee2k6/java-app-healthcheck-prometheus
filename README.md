@@ -11,7 +11,7 @@ Docker Compose
 
 # Project structure
 
-![](images/abc.png)
+![](images/project-structure.png)
 
 # Project dependencies
 
@@ -19,5 +19,5 @@ pom.xml
 
 # Attempted Application architecture design:
 
-
+![](images/project-structure.png)
 
