@@ -10,23 +10,8 @@ MySQL
 Docker Compose
 
 # Project structure
-├── src
-│   └── main
-│       └── java
-│           └── com
-│               └── billie
-│                   └── monitoring
-│                       ├── Application.java
-│                       ├── DbHealthCheck.java
-│                       └── HealthCheckExporter.java
-├── rules
-├── Dockerfile
-├── docker-compose.yaml
-├── pom.xml
-├── queries.yaml
-├── prometheus-sql.yaml
-└── prometheus.yml
 
+![](images/abc.png)
 
 # Project dependencies
 
